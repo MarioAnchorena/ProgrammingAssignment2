@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
     get=function() x 
     
     # Set the inverse matrix values in the makeCacheMatrix environment
-    setInvM=function(inverse) invM<<-inverse
+    setInvM=function(inv) invM<<-inv
     
     # Get the inverse matrix values cached in the makeCacheMatrix environment
     getInvM=function() invM
